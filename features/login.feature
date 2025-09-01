@@ -41,7 +41,7 @@ Feature: Login to BookMyShow
 
     Examples:
       |validphone|invalidphone|
-      |9569931519|1234567812  |
+      |9569931519|12345678  |
 
 
   @ValidLogin
@@ -66,5 +66,5 @@ Feature: Login to BookMyShow
 
     Examples:
       |phone     |message              |
-      |63882310869 |Invalid mobile number|
+      |1234 |Invalid mobile number|
 
